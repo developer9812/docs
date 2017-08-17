@@ -1,0 +1,20 @@
+purge the old one -
+
+sudo apt-get purge nodejs npm
+And then,
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+for node 6, or the following for node 7
+
+ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+or the following for node 8
+
+ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+(be sure you have curl installed)
+
+And lastly,
+
+sudo apt-get install -y nodejs
+
+
+Stack Overflow Link: https://askubuntu.com/a/850947

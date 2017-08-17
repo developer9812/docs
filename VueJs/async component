@@ -1,0 +1,7 @@
+In Vue loader async components must be kept in .babelrc file
+Babel loader registered in webpack.config.js will only check for files with ".js" extension
+
+https://github.com/vuejs/vue-loader/blob/master/.babelrc
+https://github.com/vuejs/vue-loader/issues/647
+https://github.com/vuejs/vue-loader/issues/350
+

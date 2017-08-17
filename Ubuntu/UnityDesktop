@@ -1,0 +1,6 @@
+
+To set launcher at bottom
+gsettings set com.canonical.Unity.Launcher launcher-position Bottom
+
+left
+gsettings set com.canonical.Unity.Launcher launcher-position Left
